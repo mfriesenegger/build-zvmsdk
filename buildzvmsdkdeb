@@ -48,6 +48,7 @@ git clone $REPO -b $BRANCH
 mkdir $REPOTOP/debian
 cp zvmsdklogs $REPOTOP/
 cp sdkdeb/* $REPOTOP/debian
+cp vhost_deb.config $REPOTOP/
 
 # Enter build folder and build
 cd $REPOTOP
